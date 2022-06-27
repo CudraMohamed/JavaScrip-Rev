@@ -145,7 +145,7 @@ line comments*/
 let my_name = "Cudra"
 if (my_name != `Cynthia`){
     console.log(`Hey there`);
-    if(my_name.lenght <=3){
+    if(my_name.length <=3){
         console.log("Name is too short");
     }else{
         console.log("Name not accepted")

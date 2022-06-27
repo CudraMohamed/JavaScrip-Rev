@@ -81,3 +81,23 @@ function outerFunction(){
 }
 //function parameters
 //comparing values
+
+//scope
+function children(){
+    if (true){
+        var myName ="Cudra";
+        var mName="Mohamed";
+    }
+    console.log(myName);
+    console.log(mName);
+}
+children()
+
+var num= [1,2,3,4,5,6,7]
+for (let i=0;i<num.length;i++){
+    console.log(num[i])
+}
+
+//tertiary
+var a =30;
+if (a < 40 ) ? true:false;
